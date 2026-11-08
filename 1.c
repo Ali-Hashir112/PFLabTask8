@@ -2,12 +2,10 @@
 
 int main()
 {
-	int age = 20;
-	int *p = &age;
-	
-	printf("%d %d" , age , *p);
-	
-	*p = 21;
-	
-	printf("\n%d" , age);
+    int age = 20;
+    int *p = &age;
+
+    printf("%d %d\n" , age , *p);
+    *p += 1;
+    printf("%d" , age);
 }
